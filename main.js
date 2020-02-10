@@ -27,6 +27,6 @@ function check(){
   else if(country.value==""){alert("Country name can't be empty!!");return false;}
   else if(pswd.value==""){alert("Password can't be empty!!");return false;}
   else if(repswd.value==""){alert("Password can't be empty!!");return false;}
-else if(pswd.vlaue!=repswd.value){alert("Password doesn't match!!");return false;}
+else if(pswd.value!=repswd.value){alert("Password doesn't match!!");return false;}
 
 }
