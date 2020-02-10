@@ -9,7 +9,11 @@ function play(){
   if(email.value==""){alert("Email can't be empty");return false;}
 else if(password.value==""){alert("Password can't be empty");return false;}
 }
-
+function pswdvisible() {
+  var x=document.getElementById("pswd");
+  if(x.type=="password"){x.type="text"}
+  else x.type="password"
+}
 function check(){
   var letters=/^[a-zA-Z]+$/;
   var name=document.getElementById('name')

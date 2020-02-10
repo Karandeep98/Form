@@ -74,6 +74,19 @@ align-items: center;
   width: 40px;
   margin: 0 5px;
 }
+/* .hello{
+float: left;
+width: 50%;
+}
+.eyeicon{
+  display: inline-block;
+
+  float: right;
+}
+.pswd{
+  display: inline-block;
+  float: left;
+} */
 .form-container input{
   background: #eee;
   border: none;
@@ -102,6 +115,11 @@ button:focus{
 button.ghost{
   background: transparent;
   border-color: #fff;
+}
+#eye{
+  margin-top: -40px;
+margin-right: -90%;
+margin-bottom: 20px;
 }
 .form-container{
   position: absolute;
