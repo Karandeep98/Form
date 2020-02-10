@@ -14,6 +14,11 @@ function pswdvisible() {
   if(x.type=="password"){x.type="text"}
   else x.type="password"
 }
+function repswdvisible() {
+  var x=document.getElementById("repswd");
+  if(x.type=="password"){x.type="text"}
+  else x.type="password"
+}
 function check(){
   var letters=/^[a-zA-Z]+$/;
   var name=document.getElementById('name')
